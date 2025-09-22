@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CellStart — ChronoNAD+ | Mockup</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+
+    <!-- Header -->
+    <header>
+      <a class="brand" href="#">
+        <span class="logo-mark">
+          <svg width="34" height="34" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="0" y="0" width="48" height="48" rx="10" fill="url(#g)"/>
+            <path d="M14 30c6-6 10-10 18-14" stroke="white" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+            <defs>
+              <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+                <stop offset="0" stop-color="#0057a6"/>
+                <stop offset="1" stop-color="#002f5c"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </span>
+        <div>
+          <h1>CellStart</h1>
+          <p>ChronoNAD+ • Cellular Renewal</p>
+        </div>
+      </a>
+
+      <nav>
+        <button class="nav-btn ghost" onclick="document.getElementById('science').scrollIntoView({behavior:'smooth'})">Science</button>
+        <button class="nav-btn ghost" onclick="document.getElementById('features').scrollIntoView({behavior:'smooth'})">Benefits</button>
+        <button class="nav-btn nav-cta" onclick="document.getElementById('purchase').scrollIntoView({behavior:'smooth'})">Shop Now</button>
+      </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-left">
+        <div class="eyebrow">New · Daily NAD+ Support</div>
+        <h2 class="headline">ChronoNAD+ — Fuel your cells, restore your rhythm</h2>
+        <p class="sub">ChronoNAD+ combines a targeted NAD+ supporting formula with resveratrol to help restore cellular energy and support healthy aging.</p>
+
+        <div class="cta-row">
+          <button class="primary-cta" onclick="onPrimaryCTA()">Fuel My Cells</button>
+          <button class="secondary-cta" onclick="document.getElementById('science').scrollIntoView({behavior:'smooth'})">Discover The Formula</button>
+        </div>
+
+        <div class="kicker">
+          <span class="pill">Clinically Inspired</span>
+          <span class="small">Mock citation: Jiang et al., Pharmacology Res. Perspectives, 2022</span>
+        </div>
+      </div>
+
+      <div class="hero-art">
+        <!-- Placeholder product art -->
+        <svg viewBox="0 0 300 200" width="100%" height="100%">
+          <circle cx="100" cy="100" r="60" fill="#eaf6ff"/>
+          <rect x="150" y="70" width="100" height="40" rx="20" fill="#0057a6"/>
+          <text x="160" y="95" fill="white" font-size="16" font-weight="700">ChronoNAD+</text>
+        </svg>
+      </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="features" class="features">
+      <article class="card">
+        <div class="icon-wrap">
+          <svg width="34" height="34" viewBox="0 0 24 24">
+            <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" fill="#0057a6"></path>
+          </svg>
+        </div>
+        <div>
+          <h3>Increase Cellular Energy</h3>
+          <p>Supports NAD+ pathways to help maintain cellular ATP production.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="icon-wrap">
+          <svg width="34" height="34" viewBox="0 0 24 24">
+            <path d="M12 2l7 3v5c0 5-3.9 9.7-7 12-3.1-2.3-7-7-7-12V5l7-3z" fill="#0057a6"/>
+          </svg>
+        </div>
+        <div>
+          <h3>Enhanced Cellular Defense</h3>
+          <p>Antioxidant cofactors support resilience and recovery.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="icon-wrap">
+          <svg width="34" height="34" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="9" fill="#eaf4ff"></circle>
+            <path d="M12 7v6l4 2" stroke="#0057a6" stroke-width="1.6"/>
+          </svg>
+        </div>
+        <div>
+          <h3>Daily, Convenient</h3>
+          <p>Once-daily dosing designed for easy integration.</p>
+        </div>
+      </article>
+    </section>
+
+    <!-- Science Section -->
+    <section id="science" class="science">
+      <div>
+        <h3>Why NAD+ + Resveratrol?</h3>
+        <p class="small">Combining NAD+ with Resveratrol can increase NAD+ levels by 1.7x compared to NAD+ alone.</p>
+      </div>
+    </section>
+
+    <!-- Call-to-action Strip -->
+    <section id="purchase" class="cta-strip">
+      <div>
+        <h3>Ready to restore your rhythm?</h3>
+        <p>Try ChronoNAD+ risk-free today.</p>
+      </div>
+      <div>
+        <button class="cta-btn" onclick="onPrimaryCTA()">Shop Now</button>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div>
+        <strong>CellStart</strong>
+        <div class="muted">Mockup webpage for assignment</div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- External JS -->
+  <script src="script.js"></script>
+</body>
+</html>
