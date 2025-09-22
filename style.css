@@ -1,0 +1,236 @@
+/* Reset & Base */
+body {
+  margin: 0;
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  background: #f8fbff;
+  color: #0b2440;
+  line-height: 1.5;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.brand {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo-mark {
+  width: 40px;
+  height: 40px;
+}
+
+.brand h1 {
+  margin: 0;
+  font-size: 18px;
+  color: #002f5c;
+}
+
+.brand p {
+  margin: 0;
+  font-size: 12px;
+}
+
+nav {
+  display: flex;
+  gap: 10px;
+}
+
+.nav-btn {
+  background: transparent;
+  border: none;
+  padding: 8px 14px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.nav-cta {
+  background: #0057a6;
+  color: #fff;
+  border-radius: 6px;
+}
+
+/* Hero */
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 40px 0;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+}
+
+.headline {
+  font-size: 36px;
+  color: #002f5c;
+  margin: 10px 0;
+}
+
+.sub {
+  font-size: 16px;
+  color: #234a73;
+}
+
+.cta-row {
+  margin: 20px 0;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.primary-cta,
+.secondary-cta {
+  padding: 12px 18px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 8px;
+}
+
+.primary-cta {
+  background: #0057a6;
+  color: white;
+}
+
+.secondary-cta {
+  background: transparent;
+  border: 2px solid #cde1ff;
+  color: #002f5c;
+}
+
+.kicker {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #21507d;
+}
+
+.pill {
+  background: #eaf4ff;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  color: #0057a6;
+}
+
+/* Hero image box */
+.hero-art {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f0f8ff;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+/* Benefits Section */
+#features {
+  margin: 50px 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+}
+
+.icon-wrap {
+  width: 50px;
+  height: 50px;
+  display: grid;
+  place-items: center;
+  background: #f0f8ff;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+.card h3 {
+  margin: 0;
+  font-size: 16px;
+  color: #002f5c;
+}
+
+.card p {
+  margin: 6px 0 0;
+  font-size: 14px;
+  color: #295978;
+}
+
+/* Science Section */
+.science {
+  margin: 40px 0;
+  padding: 20px;
+  background: #f6fbff;
+  border-radius: 10px;
+}
+
+.science h3 {
+  margin-top: 0;
+  color: #002f5c;
+}
+
+.small {
+  font-size: 14px;
+  color: #315b80;
+}
+
+/* CTA Strip */
+.cta-strip {
+  margin: 40px 0;
+  padding: 20px;
+  background: linear-gradient(90deg,#002f5c,#0057a6);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.cta-btn {
+  background: white;
+  color: #002f5c;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  padding: 20px 0;
+  font-size: 13px;
+  color: #577a9a;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  border-top: 1px solid #e1e8f0;
+}
